@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login Page</title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    </head>
+    <body>
+        <div class="container vh-100">
+            <div class="row justify-content-center h-100">
+                <div class="card w-25 my-auto shadow">
+                    <div class="card-header text-center bg-primary text-white">
+                        <h4>Registration Form</h4>
+                        <p><h10>Fillup the form with correct info</h10></p>
+                    </div>
+                    <div class="card-body">
+                        <form action="registration.php" method="post">
+                            <div class="form-group">
+                                <label for="firstname">First Name</label>
+                                <input type="firstname" id="firstname" class="form-control" name="firstname"/>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="lastname">Last Name</label>
+                                <input type="lastname" id="lastname" class="form-control" name="lastname"/>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" class="form-control" name="email"/>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="phonenumber">Phone Number</label>
+                                <input type="phonenumber" id="phonenumber" class="form-control" name="phonenumber"/>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="password">Password</label>
+                                <input type="password" id="password" class="form-control" name="password"/>
+                            </div>
+
+                            <input type="submit" class="btn btn-primary w-100" value="Sign Up" name="">
+                        </form>
+
+                    </div>
+                    <div class="card-footer text-center">
+                        <small>&copy; Khayrul Alam</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
